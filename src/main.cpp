@@ -4,6 +4,7 @@
 
 int main()
 {
+    std::cout << "Can we run" << std::endl;
     glfwInit();
 
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
