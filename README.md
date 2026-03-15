@@ -17,5 +17,7 @@ cmake --build .
 Then to run do:
 
 ```
+cd build
+cmake --build .
 .\Debug\OpenGLTemplate.exe
 ```
