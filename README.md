@@ -1,6 +1,19 @@
-# OpenGL-Template
+<h1> OpenGL Template Repository </h1>
 
-To run this repo do
+I always am eager to start working on new computer graphics projects, however, the boilerplate code required to initialize OpenGL always scares me away. Here is an IDE agnostic template that can be used to start any OpenGL project.
+
+It comes with:
+
+<ul> 
+    <li> GLFW3 </li>
+    <li> GLAD </li>
+    <li> stb_image </li>
+    <li> GLM </li>
+</ul>
+
+<h3> Cloning and Building </h3>
+
+To run this repo do the following:
 
 ```
 git clone <repo>
