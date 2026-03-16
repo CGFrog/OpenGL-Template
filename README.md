@@ -1,5 +1,8 @@
 <h1> OpenGL Template Repository </h1>
 
+> [!NOTE]
+> This is still a work in progress, there issues with the build that need to be fixed and I plan to make several helper classes and modules for shaders, meshes, etc.
+
 I always am eager to start working on new computer graphics projects, however, the boilerplate code required to initialize OpenGL always scares me away. Here is an IDE agnostic template that can be used to start any OpenGL project.
 
 It comes with:
