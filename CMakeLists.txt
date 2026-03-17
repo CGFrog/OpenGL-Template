@@ -16,12 +16,11 @@ FetchContent_MakeAvailable(glm)
 # GLFW
 add_subdirectory(external/glfw)
 
+file(GLOB_RECURSE SRC_FILES "${PROJECT_SOURCE_DIR}/src/*.cpp" "${PROJECT_SOURCE_DIR}/src/*.c")
+
 # Executable
-add_executable(OpenGLTemplate
-    src/main.cpp
-    src/glad.c
-    src/stb_image.cpp
-)
+add_executable(OpenGLTemplate ${SRC_FILES})
+
 
 # Include paths
 target_include_directories(OpenGLTemplate PRIVATE
