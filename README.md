@@ -1,6 +1,9 @@
 <h1> OpenGL Template Repository </h1>
 
-I always am eager to start working on new computer graphics projects, however, the boilerplate code required to initialize OpenGL always scares me away. Here is an IDE agnostic template that can be used to start any OpenGL project.
+> [!NOTE]
+> This is still a work in progress; there are issues with the build that need to be fixed, and I plan to make several helper classes and modules for shaders, meshes, etc.
+
+I am always eager to start working on new computer graphics projects; however, the boilerplate code required to initialize OpenGL always scares me away. Here is an IDE agnostic template that can be used to start any OpenGL project.
 
 It comes with:
 
@@ -13,7 +16,7 @@ It comes with:
 
 <h3> Cloning and Building </h3>
 
-To run this repo do the following:
+To run this repo, do the following:
 
 ```
 git clone <repo>
