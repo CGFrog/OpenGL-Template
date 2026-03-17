@@ -3,17 +3,18 @@
 #include <GLFW/glfw3.h>
 
 class GraphicsEngine{
+private:
+    GLFWwindow* window;
+    void initializeGLFW();
+    void update();
+    void static frameBufferSizeCallback(GLFWwindow*, int, int);
+    void processInput();
+        
 public:
     GraphicsEngine();
     ~GraphicsEngine();
     
-    void initializeGLFW();
-
+    void run();
+    void setup();
     void loop();
-
-
-    GLFWwindow* window;
-
-private:
-    void preprocessing();
 };
