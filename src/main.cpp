@@ -5,7 +5,6 @@ int main(){
     GraphicsEngine graphicsEngine = GraphicsEngine();
     graphicsEngine.setup();
     graphicsEngine.run();
-    graphicsEngine.loop();
-    
+
     return 0;
 }

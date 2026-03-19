@@ -1,5 +1,6 @@
 #include "GraphicsEngine.hpp"
 #include <iostream>
+#include "../Test/Triangle.hpp"
 
 GraphicsEngine::GraphicsEngine(){}
 
@@ -59,16 +60,20 @@ NOTE:
     things like audio and physics start getting involved that also need to be updated every frame. Since I am focusing on graphics right now, this is fine.
 */
 void GraphicsEngine::run(){
+    Triangle tri = Triangle();
+    std::cout << "Triangle Initialized" << std::endl;
     while (!glfwWindowShouldClose(window)) {
         processInput(); // Eventually make an input manager class, probably some sort of event driven thing.
-        update();      
+        glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
+
+        tri.drawTriangle();
+            glfwSwapBuffers(window);
+        glfwPollEvents();
     }
 }
 
 void GraphicsEngine::update(){
-    glClearColor(0.1f, 0.2f, 0.3f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT);
-    glfwSwapBuffers(window);
-    glfwPollEvents();
+
 }
 

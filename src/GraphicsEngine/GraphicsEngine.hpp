@@ -16,5 +16,4 @@ public:
     
     void run();
     void setup();
-    void loop();
 };
