@@ -13,8 +13,8 @@ void GraphicsEngine::frameBufferSizeCallback(GLFWwindow* window, int width, int 
 
 /*
 TODO:
-As it stands not if any part of the init process does not work, run is still called
-need to prevent this from happening.
+As it stands, if any part of the init process does not work, run is still called
+need to prevent this from happening. Not hard to do but I dont care enough at the moment.
 */
 void GraphicsEngine::initializeGLFW(){
     if (!glfwInit()){
