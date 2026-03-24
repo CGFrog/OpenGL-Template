@@ -68,7 +68,7 @@ void GraphicsEngine::run(){
         glClear(GL_COLOR_BUFFER_BIT);
 
         tri.drawTriangle();
-            glfwSwapBuffers(window);
+        glfwSwapBuffers(window);
         glfwPollEvents();
     }
 }

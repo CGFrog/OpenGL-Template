@@ -21,7 +21,6 @@ file(GLOB_RECURSE SRC_FILES "${PROJECT_SOURCE_DIR}/src/*.cpp" "${PROJECT_SOURCE_
 # Executable
 add_executable(OpenGLTemplate ${SRC_FILES})
 
-
 # Include paths
 target_include_directories(OpenGLTemplate PRIVATE
     external/glad/include

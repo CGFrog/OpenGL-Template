@@ -37,3 +37,15 @@ cd build
 cmake --build .
 .\Debug\OpenGLTemplate.exe
 ```
+
+<h3> TODO </h3>
+
+Need to figure out scene management, how all objects are rendered quickly.
+
+
+<ul>
+    <li> Renderer </li>
+    <li> Shader Class </li>
+    <li> Model/Mesh Class </li>
+    <li> Texture Class </li>
+</ul>
